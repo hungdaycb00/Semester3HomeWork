@@ -7494,6 +7494,8 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.1",
+      "Microsoft.EntityFrameworkCore >= 5.0.1",
+      "Microsoft.EntityFrameworkCore.Relational >= 5.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.1",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.1",
@@ -7501,19 +7503,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\hungc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Admin\\source\\repos\\ContosoUniversity\\ContosoUniversity.csproj",
+      "projectUniqueName": "E:\\Users\\hungc\\Documents\\GitHub\\Semester3HomeWork\\ContosoUniversity\\ContosoUniversity.csproj",
       "projectName": "ContosoUniversity",
-      "projectPath": "D:\\Users\\Admin\\source\\repos\\ContosoUniversity\\ContosoUniversity.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Admin\\source\\repos\\ContosoUniversity\\obj\\",
+      "projectPath": "E:\\Users\\hungc\\Documents\\GitHub\\Semester3HomeWork\\ContosoUniversity\\ContosoUniversity.csproj",
+      "packagesPath": "C:\\Users\\hungc\\.nuget\\packages\\",
+      "outputPath": "E:\\Users\\hungc\\Documents\\GitHub\\Semester3HomeWork\\ContosoUniversity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hungc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7540,6 +7542,14 @@
         "targetAlias": "net5.0",
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[5.0.1, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[5.0.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[5.0.1, )"
           },

@@ -1,0 +1,5 @@
+﻿Build started...
+1>------ Build started: Project: ContosoUniversity, Configuration: Debug Any CPU ------
+1>ContosoUniversity -> E:\Users\hungc\Documents\GitHub\Semester3HomeWork\ContosoUniversity\bin\Debug\net5.0\ContosoUniversity.dll
+1>ContosoUniversity -> E:\Users\hungc\Documents\GitHub\Semester3HomeWork\ContosoUniversity\bin\Debug\net5.0\ContosoUniversity.Views.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
