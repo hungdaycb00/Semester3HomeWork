@@ -7503,19 +7503,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hungc\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Users\\hungc\\Documents\\GitHub\\Semester3HomeWork\\ContosoUniversity\\ContosoUniversity.csproj",
+      "projectUniqueName": "D:\\Users\\Admin\\source\\repos\\ContosoUniversity\\ContosoUniversity.csproj",
       "projectName": "ContosoUniversity",
-      "projectPath": "E:\\Users\\hungc\\Documents\\GitHub\\Semester3HomeWork\\ContosoUniversity\\ContosoUniversity.csproj",
-      "packagesPath": "C:\\Users\\hungc\\.nuget\\packages\\",
-      "outputPath": "E:\\Users\\hungc\\Documents\\GitHub\\Semester3HomeWork\\ContosoUniversity\\obj\\",
+      "projectPath": "D:\\Users\\Admin\\source\\repos\\ContosoUniversity\\ContosoUniversity.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\Admin\\source\\repos\\ContosoUniversity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hungc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
