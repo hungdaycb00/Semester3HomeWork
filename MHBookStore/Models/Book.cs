@@ -17,6 +17,7 @@ namespace MHBookStore.Models
         public string Description { get; set; }
 
         public string Author { get; set; }
+        public string UrlImage { get; set; }
 
         [Column(TypeName = "decimal(8,2)")]
         public decimal Price { get; set; }

@@ -4,5 +4,27 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+<hr />
+@model IQueryable<Book>
+    
+    <div class="container">
+        <div class="row">
+            
+            @foreach (var p in Model) //model ánh xạ của Book
+            {
+              
+                <div class="col-3" height="300">
+                    <img src="~/Image/@p.UrlImage" alt="Alternate Text" height="200px" width="200px" />
+                    <h2>@p.Title</h2>
+                    <p style="font-style:italic">@p.Author</p>
+                    <p>@p.Description</p>
+                    <h5>@p.Price.ToString("c")</h5>
+                </div>
+
+               
+            }
+
+
+        </div>
+    </div>

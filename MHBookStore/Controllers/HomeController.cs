@@ -11,18 +11,21 @@ namespace MHBookStore.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private IStoreRepository repository;
+        public int PageSize = 8;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IStoreRepository repo)
         {
-            _logger = logger;
+            repository = repo;
         }
 
-        public IActionResult Index() => View();
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+        //public IActionResult Index() => View(repository.Books);
+
+        public ViewResult Index(int productPage = 1) => View(repository.Books
+            .OrderBy(p => p.Id)
+            .Skip((productPage - 1) * PageSize) //skip: bỏ qua, take: lấy
+            .Take(PageSize)
+            );
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
