@@ -6,25 +6,26 @@
     <h1 class="display-4">Welcome</h1>
 </div>
 <hr />
-@model IQueryable<Book>
+@model ProductsListViewModel
     
-    <div class="container">
-        <div class="row">
-            
-            @foreach (var p in Model) //model ánh xạ của Book
-            {
-              
-                <div class="col-3" height="300">
-                    <img src="~/Image/@p.UrlImage" alt="Alternate Text" height="200px" width="200px" />
-                    <h2>@p.Title</h2>
-                    <p style="font-style:italic">@p.Author</p>
-                    <p>@p.Description</p>
-                    <h5>@p.Price.ToString("c")</h5>
-                </div>
+<div class="container">
+    <div class="row">
 
-               
-            }
+        @foreach (var p in Model.Books) //model ánh xạ của Book
+        {
+
+            <div class="col-3" height="300">
+                <img src="~/Image/@p.UrlImage" alt="Alternate Text" height="200px" width="200px" />
+                <h2>@p.Title</h2>
+                <p style="font-style:italic">@p.Author</p>
+                <p>@p.Description</p>
+                <h5>@p.Price.ToString("c")</h5>
+            </div>
 
 
-        </div>
+        }
+
+
     </div>
+    <div page-model="@Model.PagingInfo" page-action="Index" class="page-link text-center font-weight-bold"></div>
+</div>
