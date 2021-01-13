@@ -13,7 +13,7 @@ namespace MHBookStore.Controllers
     public class HomeController : Controller
     {
         private IStoreRepository repository;
-        public int PageSize = 4;
+        public int PageSize = 10;
 
         public HomeController(IStoreRepository repo)
         {

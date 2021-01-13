@@ -1,0 +1,9 @@
+﻿@model Book
+
+<div class="col-lg-2 col-md-3 col-sm-4">
+    <div class="item">
+        <img src="~/Images/@Model.UrlImage" alt="img" height="120" width="100">
+        <h3><a href="#">@Model.Title</a></h3>
+        <h6><span class="price">@Model.Price.ToString("c")</span> / <a href="#">Buy Now</a></h6>
+    </div>
+</div>
