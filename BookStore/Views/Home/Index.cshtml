@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+</div>
+
+@model ProductListViewModel
+
+@foreach (var item in Model.Books)
+{
+    <p>@item.Title</p>
+    <h2>@item.Price</h2>
+}
+<div page-model="@Model.PagingInfo" page-action="Index" class="page-link text-center font-weight-bold"></div>
