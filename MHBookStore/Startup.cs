@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
@@ -57,9 +57,23 @@ namespace MHBookStore
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    "pagination", "Products/Page{productPage}",
-                    new { controller = "Home", action = "Index" });
+                //endpoints.MapControllerRoute(
+                //    "pagination", "Products/Page{productPage}",
+                //    new { controller = "Home", action = "Index" });
+
+                /* http://localhost:5000/Kinh Tế/page1 */
+                endpoints.MapControllerRoute("catpage",
+                    "{category}/Page{peoductPage:int}",
+                    new { Controller = "Home", action = "Index" });
+
+                endpoints.MapControllerRoute("page", "Page{productPage:int}",
+                    new { Controller = "Home", action = "Index", productPage = 1 });
+
+                endpoints.MapControllerRoute("category", "{category}",
+                    new { Controller = "Home", action = "Index", productPage = 1 });
+
+           
+
                 endpoints.MapDefaultControllerRoute();
             });
          

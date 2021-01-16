@@ -22,10 +22,11 @@ namespace MHBookStore.Controllers
 
         //public IActionResult Index() => View(repository.Books);
 
-        public ViewResult Index(int productPage = 1)
+        public ViewResult Index(string category,int productPage = 1)
             => View(new ProductsListViewModel
             {
                 Books = repository.Books
+                        .Where(p => category == null || p.Category == category) //kiểm tra category
                         .OrderBy(p => p.Id)
                         .Skip((productPage - 1) * PageSize) //skip: bỏ qua, take: lấy
                         .Take(PageSize),
@@ -36,8 +37,9 @@ namespace MHBookStore.Controllers
                     TotalItems = repository.Books.Count()
                 }
             });
-             
-         
+
+        public IActionResult Detail() => View();
+     
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

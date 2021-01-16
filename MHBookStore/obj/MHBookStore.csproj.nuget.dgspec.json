@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Admin\\source\\repos\\MHBookStore\\MHBookStore.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\MHBookStore\\MHBookStore.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Admin\\source\\repos\\MHBookStore\\MHBookStore.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\MHBookStore\\MHBookStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Admin\\source\\repos\\MHBookStore\\MHBookStore.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\MHBookStore\\MHBookStore.csproj",
         "projectName": "MHBookStore",
-        "projectPath": "D:\\Users\\Admin\\source\\repos\\MHBookStore\\MHBookStore.csproj",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\MHBookStore\\MHBookStore.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Admin\\source\\repos\\MHBookStore\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\MHBookStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

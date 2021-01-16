@@ -49,8 +49,7 @@ namespace MHBookStore.Data
                         Category = "Tiểu thuyết",
                         Author = "Nguyễn Nhật Ánh",
                         Description =" Như một cuốn phim “trinh thám tình yêu”,Con chim xanh biếc bay về dẫn bạn đi hết từ bất ngờ này đến tò mò suy đoán khác,để kết thúc bằng một nỗi hân hoan vô bờ sau bao phen hồi hộp nghi kỵ đến khó thở.",
-                        Price = 112300
-                        ,
+                        Price = 112300,
                         UrlImage = "3.jpg"
                     },
                     new Book
@@ -59,8 +58,7 @@ namespace MHBookStore.Data
                         Category = "Tiểu thuyết",
                         Author = "DAVID A. PHILLIPS",
                         Description = "Cuốn sách Thay đổi cuộc sống với Nhân số học là tác phẩm được chị Lê Đỗ Quỳnh Hương phát triển từ tác phẩm gốc “The Complete Book of Numerology” của tiến sỹ David A. Phillips, khiến bộ môn Nhân số học khởi nguồn từ nhà toán học Pythagoras trở nên gần gũi, dễ hiểu hơn với độc giả Việt Nam.",
-                        Price = 235000
-                        ,
+                        Price = 235000,
                         UrlImage = "4.jpg"
                     },
                     new Book
@@ -69,8 +67,7 @@ namespace MHBookStore.Data
                         Category = "Kinh Tế",
                         Author = "Mark W. Schaefer",
                         Description = "Cuốn sách dành cho bất cứ ai muốn trở thành một chiến binh marketing đích thực",
-                        Price = 121500
-                        ,
+                        Price = 121500,
                         UrlImage = "5.jpg"
                     },
                     new Book
@@ -79,8 +76,7 @@ namespace MHBookStore.Data
                         Category = "Kinh Tế",
                         Author = "Hermann Simon",
                         Description = "Hermann Simon- Chuyên gia hàng đầu thế giới về chiến lược định giá tiết lộ cách quy trình bí ẩn này hoạt động và cách tối đa hóa giá trị thông qua việc định giá cho công ty và khách hàng. ",
-                        Price = 169000
-                        ,
+                        Price = 169000,
                         UrlImage = "6.jpg"
                     },
                     new Book
@@ -89,8 +85,7 @@ namespace MHBookStore.Data
                         Category = "Chứng Khoán, Đầu tư",
                         Author = "Cris DoLoc",
                         Description = "Kỷ nguyên dữ liệu và trí tuệ hiện đang mở ra những tiềm năng vô hạn và thực tế cho thấy công nghệ đang xâm chiếm thế giới, phản ánh ở những ảnh hưởng sâu sắc trên mọi mặt của đời sống kinh tế, xã hội.",
-                        Price = 194500
-                        ,
+                        Price = 194500,
                         UrlImage = "7.jpg"
                     },
                     new Book
@@ -99,8 +94,7 @@ namespace MHBookStore.Data
                         Category = "Chứng Khoán, Đầu tư",
                         Author = "Kevin J Davey",
                         Description = "Bạn có muốn tích lũy cho kế hoạch tương lai? Bạn có muốn gia tăng tài sản phục vụ cho những mục đích dài hạn? Bạn bắt đầu quan tâm và tìm hiểu kế hoạch tài chính cá nhân.",
-                        Price = 134000
-                        ,
+                        Price = 134000,
                         UrlImage = "8.jpg"
                     },
                     new Book
@@ -109,8 +103,7 @@ namespace MHBookStore.Data
                         Category = "Nhân vật & bài học kinh doanh",
                         Author = "Alex Kantrowitz",
                         Description = "Always Day One - Công Thức Thành Công Của Amazon, Facebook, Google, Microsoft xuất bản vào tháng Tư năm 2020, là một ấn bản rất được mong đợi của Alex Kantrowitz.",
-                        Price = 152000
-                        ,
+                        Price = 152000,
                         UrlImage = "9.jpg"
                     },
                     new Book
